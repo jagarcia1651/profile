@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Garcia - Resume</title>
+    <style>
+        /* Matching website colors from tailwind.config.js */
+        :root {
+            --primary-500: #0ea5e9;
+            --primary-600: #0284c7;
+            --secondary-600: #475569;
+            --secondary-800: #1e293b;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: var(--secondary-600);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--secondary-800);
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--secondary-800);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary-600);
+            margin-bottom: 0.5rem;
+        }
+
+        .job-title {
+            font-size: 1.5rem;
+            color: var(--primary-500);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info {
+            background-color: #f8fafc;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info a {
+            color: var(--primary-500);
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            background-color: #f8fafc;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            border: 1px solid #e2e8f0;
+        }
+
+        .date {
+            color: var(--secondary-600);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jacob Garcia</h1>
+    <p class="job-title">Senior Web Application Developer</p>
+
+    <div class="contact-info">
+        <p>📧 <a href="mailto:jagarcia1651@gmail.com">jagarcia1651@gmail.com</a></p>
+        <p>📱 (928) 202-1651</p>
+        <p>🔗 <a href="https://linkedin.com/in/jagarcia1651">linkedin.com/in/jagarcia1651</a></p>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <p>
+        Resourceful and technical professional with a strong background in researching, designing, and implementing effective solutions. Proficient in leveraging industry-standard patterns and practices such as Domain-Driven Design (DDD) and Clean Architecture to optimize, adapt, and update legacy systems and drive project success. Experienced in leading teams, managing deployments, and bridging technical requirements with business objectives. Adept at problem-solving and delivering value-added solutions in dynamic environments.
+    </p>
+
+    <h2>Core Competencies</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Team Leadership</h3>
+            <ul>
+                <li>Authoring standards and processes</li>
+                <li>Solution diagramming and documenting</li>
+                <li>SME delegation and mentoring juniors</li>
+                <li>Project estimation and status management</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Solution Architecture</h3>
+            <ul>
+                <li>Clean Architecture & SOLID Principles</li>
+                <li>Service-Oriented Architecture</li>
+                <li>Event-Driven Architecture</li>
+                <li>Domain-Driven Design (DDD)</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Work Experience</h2>
+    <div class="card">
+        <h3>Senior Developer II - BigTime Software</h3>
+        <p class="date">May 2022 - Present</p>
+        <ul>
+            <li>Partnered with implementation and product teams to design and develop solutions</li>
+            <li>Led engineering team integration with acquired partners</li>
+            <li>Implemented DDD and Clean Architecture in legacy system modernization</li>
+            <li>Enhanced application performance using AWS Elasticache</li>
+        </ul>
+    </div>
+
+    <div class="card" style="margin-top: 1.5rem;">
+        <h3>Application Developer III - Fjorge Digital</h3>
+        <p class="date">May 2019 - May 2022</p>
+        <ul>
+            <li>Lead Developer for multiple managed customer applications</li>
+            <li>Solution Architect for cloud-based CMS projects</li>
+            <li>Implemented version control processes and CI/CD pipelines</li>
+            <li>Managed deployments and database operations</li>
+        </ul>
+    </div>
+
+    <h2>Education</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>Oregon State University - September 2018</p>
+        </div>
+        <div class="card">
+            <h3>Bachelor of Science in Mathematics</h3>
+            <p>Northern Arizona University - March 2016</p>
+        </div>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="card">
+        <ul>
+            <li>AWS Solutions Architect Professional</li>
+            <li>AWS Solutions Architect Associate</li>
+            <li>AWS Certified Cloud Practitioner</li>
+        </ul>
+    </div>
+</body>
+</html> 
