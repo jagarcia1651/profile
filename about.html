@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Site - Jacob Garcia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-primary-100 via-accent-50 to-secondary-800/5 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="index.html" class="py-4 px-2 text-gray-700 hover:text-primary-500 transition duration-300">Resume</a>
+                        <a href="about.html" class="py-4 px-2 text-primary-500 border-b-2 border-primary-500">About This Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8 lg:px-8">
+        <section class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-6 md:p-8 hover:shadow-2xl transition-all duration-300 border border-secondary-200">
+            <h1 class="text-4xl font-bold mb-8 text-gray-800 bg-gradient-to-r from-secondary-800 via-primary-600 to-accent-600 bg-clip-text text-transparent">About This Site</h1>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Technical Details Column -->
+                <div class="space-y-8">
+                    <div class="bg-primary-50/50 p-6 rounded-xl border border-secondary-200">
+                        <h2 class="text-2xl font-semibold mb-4 text-secondary-800 flex items-center">
+                            <span class="w-2 h-2 bg-accent-400 rounded-full mr-2"></span>
+                            Technologies Used
+                        </h2>
+                        <ul class="list-disc ml-6 space-y-2 text-secondary-600">
+                            <li>HTML5 for structure</li>
+                            <li>Tailwind CSS for modern, responsive styling</li>
+                            <li>Modern CSS features for smooth animations and transitions</li>
+                            <li>Responsive design principles</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-primary-50/50 p-6 rounded-xl border border-secondary-200">
+                        <h2 class="text-2xl font-semibold mb-4 text-secondary-800 flex items-center">
+                            <span class="w-2 h-2 bg-accent-400 rounded-full mr-2"></span>
+                            Development Tools
+                        </h2>
+                        <ul class="list-disc ml-6 space-y-2 text-secondary-600">
+                            <li>Cursor IDE for development</li>
+                            <li>Claude AI for assistance and optimization</li>
+                            <li>Git for version control</li>
+                            <li>Modern web development best practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Development Story Column -->
+                <div class="bg-gradient-to-br from-secondary-50 to-white p-6 rounded-xl border border-secondary-200 shadow-md">
+                    <h2 class="text-2xl font-semibold mb-4 text-secondary-800 flex items-center">
+                        <span class="w-2 h-2 bg-accent-400 rounded-full mr-2"></span>
+                        Development Story
+                    </h2>
+                    <div class="space-y-4 text-secondary-600">
+                        <p class="leading-relaxed">
+                            This website was developed through an interactive conversation with Claude AI in Cursor IDE. 
+                            The entire process, from initial concept to final implementation, took approximately 45 minutes.
+                        </p>
+                        <p class="leading-relaxed font-semibold text-secondary-700">
+                            The development workflow involved:
+                        </p>
+                        <ul class="list-disc ml-6 space-y-2">
+                            <li>Initial scaffolding of the site structure based on requirements</li>
+                            <li>Iterative refinement of content and styling through natural language conversation</li>
+                            <li>Real-time collaboration where I guided the AI to make specific adjustments to design and functionality</li>
+                            <li>Rapid prototyping and implementation of design changes</li>
+                        </ul>
+                        <p class="leading-relaxed mt-6">
+                            This approach demonstrated the efficiency of AI-assisted development while maintaining full creative control 
+                            over the final product. The result is a professional, responsive website that was developed in a fraction 
+                            of the time traditional development would require.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Details Section -->
+            <div class="mt-8 bg-gradient-to-br from-accent-50 to-primary-50 p-6 rounded-xl border border-secondary-200">
+                <h2 class="text-2xl font-semibold mb-4 text-secondary-800 flex items-center">
+                    <span class="w-2 h-2 bg-accent-400 rounded-full mr-2"></span>
+                    Features & Implementation
+                </h2>
+                <p class="text-secondary-600 mb-4">
+                    The development process leveraged the power of AI through Cursor IDE and Claude AI, 
+                    demonstrating how modern development tools can enhance productivity while maintaining 
+                    high-quality code standards.
+                </p>
+                <p class="text-secondary-600">
+                    The result is a clean, responsive design that showcases both traditional web development 
+                    expertise and modern AI-assisted workflows. The site features smooth transitions, 
+                    optimized performance, and a user-friendly interface that works seamlessly across all devices.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-lg mt-12">
+        <div class="max-w-6xl mx-auto px-4 py-6">
+            <p class="text-center text-gray-600">
+                © 2024 Jacob Garcia. Built with modern web technologies and AI assistance.
+            </p>
+        </div>
+    </footer>
+</body>
+</html> 
